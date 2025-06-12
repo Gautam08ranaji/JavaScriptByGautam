@@ -2,8 +2,8 @@
 
 // alert(3 + 3) we are using node.js not browser --> uses alert(), which is a browser-specific function. It will not work in Node.js, because Node.js runs JavaScript outside the browser — there's no window, document, or alert() in Node.js.
 
-console.log(3 + 3);
-console.log("Gautam");
+// console.log(3 + 3);
+// console.log("Gautam");
 
 //  number => 2 to the power 53
 // bigint

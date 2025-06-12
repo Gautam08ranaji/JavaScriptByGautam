@@ -46,9 +46,44 @@ let valueInString = String(someNumber)
 // true -> string true
 
 
+// *********************************OPERATIONS******************************
+
+// console.log(2+2); -> 4
+// console.log(2-2); -> 0
+// console.log(2*2); -> 4
+// console.log(2**3); ->8 
+// console.log(2%2); ->0
+// console.log(2/2); -> 1
 
 
+// console.log(2 + "2"); -> 22
+// console.log("2" + 2);  -> 22
+// console.log("2" + 2 +2);  ->222
+// console.log(2 +2 + "2");  -> 42
 
+
+// console.log("result ",2 +2 * 4 % 2); -> 2
+// console.log("result ",2 +2 * 4 / 2); -> 6
+
+// console.log("result ",(2 +2) * (14 / 2));  -> 28
+// console.log("result ",(5 +2) * (5 % 3));  
+
+// console.log(true);
+// console.log(+true);
+// console.log(+"");
+// console.log(+"dgsf");
+
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
 
 
 
