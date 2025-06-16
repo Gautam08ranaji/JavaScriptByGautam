@@ -127,11 +127,38 @@
 // test();
 
 
-let x = 1;
+// let x = 1;
 
-function test({ a = x }) {
-  let x = 2;
-  console.log(a);
+// function test({ a = x }) {
+//   let x = 2;
+//   console.log(a);
+// }
+
+// test({}); // 1
+
+
+// if (true) {
+//     const username = "Gautam"
+//     if (username === "Gautam") {
+//         const website = " youtube"
+//         console.log(username + website);
+//     }
+//     console.log(website);
+    
+// }
+
+// console.log(username);
+
+console.log(addOne(5));
+
+
+function addOne(num){
+    return num + 1
 }
 
-test({}); // 1
+console.log(addTwo(7));
+
+
+const addTwo = function (num){
+    return num + 2
+}
