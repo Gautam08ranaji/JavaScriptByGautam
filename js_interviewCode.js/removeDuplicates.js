@@ -1,9 +1,10 @@
-const arr = [1, 2, 3, 1, 5, 4, 6, 3];
+const orginalarr = [4, 2, 7, 4, 9, 2, 1, 7, 5, 6, 9];;
+const arr = [...orginalarr];
 
 let length = arr.length;
 
 for (let i = 0; i < length; i++) {      
-    console.log(i);
+    // console.log(i);
               // lenghth = 6 
     for (let j = i + 1; j < length; j++ ) {      // i = 5 
         if (arr[i] === arr[j]) {                 // j = 6 

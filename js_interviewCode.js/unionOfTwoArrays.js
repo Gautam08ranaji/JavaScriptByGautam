@@ -1,5 +1,5 @@
-const A = [1, 1,2, 3,7 ,7]
-const B = [3, 4, 5 , 5 , 6]
+const A = [1, 1, 2, 3, 7, 7];
+const B = [3, 4, 5, 5, 6];
 // Union = [1, 2, 3, 4, 5]
 const spread = [...A,...B] 
 // console.log("spread",spread);

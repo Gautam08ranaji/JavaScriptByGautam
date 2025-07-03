@@ -19,10 +19,13 @@ function findMissingNum (array){
 function Missing(array){
     let n = array.length + 1
     let expected = (n*(n+1)) / 2;
+    console.log(expected);
     let sum = 0 
     for (let i = 0; i < array.length; i++) {
         sum += array[i]
     }
+    console.log(sum);
+    
     return expected - sum
 
 }
