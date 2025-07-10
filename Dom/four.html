@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #212121; color: #fff;">
+
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+
+    //create
+    
+    function addLanguage(langName) {
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLanguage("python")
+    addLanguage("java")
+    addLanguage("react")
+
+    function addOptiLanguage(langName) {
+        const li = document.createElement("li")
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addOptiLanguage("React-Native")
+// edit 
+    const secLang = document.querySelector("li:nth-child(2)")
+    secLang.innerText  = "mojif"
+
+    // delete
+
+    const lst = document.querySelector('li:last-child')
+    lst.remove()
+
+</script>
+
+</html>

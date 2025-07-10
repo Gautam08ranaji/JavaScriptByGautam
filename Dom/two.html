@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #1a1a1a; color: #fff;">
+    <div id="week-days" class="weeks" >
+        <div class="day">MON-DAY</div>
+        <div class="day">TUES-DAY</div>
+        <div class="day">WEDNES-DAY</div>
+        <div class="day">THURS-DAY</div>
+    </div>
+</body>
+<script>
+const id =    document.getElementById('week-days')
+id.style.background = "orange"
+id.style.padding = "10px" 
+// console.log(id);
+
+const cls = document.getElementsByClassName('weeks')
+console.log(cls);
+
+const parent = document.querySelector('.weeks')
+
+console.log(parent.childNodes);
+console.log(parent.firstElementChild);
+
+const secondChild = parent.firstElementChild.nextElementSibling
+console.log(secondChild);
+
+secondChild.style.color = "red"
+
+console.log(parent.children[0]);
+for (let index = 0; index < parent.children.length; index++) {
+     parent.children[index].style.color = "black"
+    
+}
+
+
+</script>
+</html>
